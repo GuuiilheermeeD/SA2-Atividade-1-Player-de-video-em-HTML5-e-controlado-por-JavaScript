@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esportes</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="caixa">
+        <video id="videoSurf" width="800"  poster="imagem/poster.png">
+            <source src="video/surf.mp4" type="video/mp4">
+        </video>
+
+        <div id="caixaInterna">
+            <button onclick="playPause()">Play / Pause</button>
+            <button onclick="mudo()">Mudo</button>
+            <button onclick="aumentar()">Volume +</button>
+            <button onclick="diminuir()">Volume -</button>
+            <button onclick="mini()">Mini Tela</button>
+            <button onclick="normal()">Normal</button>
+            <button onclick="aumentarTela()">Modo Teatro </button>
+            <button onclick="tela_cheia()">Tela cheia</button>
+        </div>
+    </div>
+
+    <script src="javaScript/botoes.js"></script>
+</body>
+
+</html>
